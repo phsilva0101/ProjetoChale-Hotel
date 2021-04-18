@@ -2,5 +2,5 @@
 Design of a fictitious chale hotel, using HTML and pure CSS.
 
 <h1 >
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/Chale1.png.png" />
+  <img alt="Chale Hotel" title="#Chale Hotel" src="../assets/Chale1.png.png" />
 </h1>
