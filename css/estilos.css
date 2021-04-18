@@ -66,7 +66,6 @@ body{
 	right: 0;
 	z-index: 2;
 	background: url(../imagens/topo-imagem-lateral.png) no-repeat ;
-	background: ;
 	width: 450px;
 	height: 250px;
 
@@ -218,7 +217,7 @@ ul#navegacao a:hover{
 }
 
 
-}
+
 /*Formatações de textos*/
 
 h2 {
@@ -306,3 +305,4 @@ input[type="checkbox"]{
 	.enviar:active{
 	box-shadow: 0 5px #666;
 	transform: translateY(3px);
+	}
