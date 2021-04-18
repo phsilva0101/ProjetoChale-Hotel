@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chalé Hotel - Reserva</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="topo">
+			<div id="logo">
+				<h1 class="logo">
+					<a href="index.html">Chalé hotel</a>
+				</h1>
+			</div>
+
+			<div id="area-menu">
+				<div id="conteudo-menu">
+
+					<div id="menu-locais">
+				<span class="locais">Rio de Janeiro - São Paulo - Belo Horizonte  </span>
+				<a class="reserva" href="reserva.html">Reservar</a>
+					<div style="clear: both;"></div>
+					</div>
+
+				<div id="menu-vertical">	
+					<ul id="navegacao">
+						<li>
+							<a href="index.html">home</a>
+						</li>
+						<li>
+							<a href="historia.html">história</a>
+						</li>
+						<li>
+							<a href="imprensa.html">imprensa</a>
+						</li>
+						<li>
+							<a href="gastronomia.html">gastronomia</a>
+						</li>
+						<li>
+							<a href="contato.html">contato</a>
+						</li>
+				</ul>
+
+				<img class="depoimento" src="imagens/depoimentoph.png">
+			</div>
+
+				</div><!-- Conteudo menu fim-->				
+			</div> <!-- fim area-menu-->
+		</div><!-- fim do topo -->
+			
+			<h1>Garanta sua reserva já!</h1>
+
+			<fieldset>
+				<legend>Dados pessoais</legend>
+				<div>
+				<label for="nome">Nome completo:</label>
+				<input type="text" name="nome" id="nome">
+			</div>
+			<div>
+				<label for="nascimento">Data de nascimento:</label>
+				<input type="date" name="nascimento" id="nascimento" min="2003-01-01">
+			</div>
+			<div>
+				<label for="cpf">CPF:</label>
+				<input type="text" name="cpf" id="cpf " placeholder="123.456.789-0">
+			</div>
+			<div>
+				<label for="rg">RG:</label>
+				<input type="text" name="rg" id="rg" placeholder="12.345.678.x">
+			</div>
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Contato</legend>
+			<div>
+				<label for="email">Email:</label>
+				<input type="text" name="email" id="email" placeholder="contato@contato.com">
+			</div>
+			<div>
+				<label for="telefone">Telefone:</label>
+				<input type="text" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx">
+			</div>
+
+				<label>Aceita ser contato pelo whatsapp?</label><br>
+				<label  for="sim">
+				<input class="radio" type="radio" name="lembrar" id="sim">Sim
+			</label>
+
+
+			<label for="nao">
+				<input class="radio" type="radio" name="lembrar" id="nao">Não
+			</label>
+
+			</fieldset>
+
+			<fieldset>
+				<legend>Reserva</legend>
+			<div>
+				<label for="checkin">Check-in:</label>
+				<input type="date" name="checkin" id="checkin">
+			</div>
+			<div>
+				<label for="checkout">Check-out:</label>
+				<input type="date" name="checkout" id="checkout">
+			</div>
+
+			</fieldset>
+
+			<div>
+
+				<input type="checkbox" name="aceito" id="aceito">Concordo com os <a href="">Termos de privacidade</a>.<br>
+				<input type="checkbox" name="aceito" id="aceito">Aceito receber ofertas de hospedagem, cupons e promoções pelo email.
+
+
+			</div>
+
+			<input class="enviar" type="submit" name="reserva" value="Enviar">
+			<input class="enviar" type="reset">
+
+			<div id="rodape">
+				<span>
+					&copy; Copyright 2000-2020 Chalé hotel
+				</span>
+			</div>
+
+
+
+
+	</div><!-- fim container-->
+
+</body>
+</html>

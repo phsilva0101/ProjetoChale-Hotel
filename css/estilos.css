@@ -1,0 +1,308 @@
+/*Formatação geral*/
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	font: "Arial",Helvetica , sans-serif;
+	background: url(../imagens/bg.png);
+	margin: 15px;
+
+
+}
+
+/*Formatando topo*/
+
+#container{
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180px;
+	background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+
+
+}
+
+#topo{
+	height: 15.4em;
+	min-height: 250px;
+	background: #dbcd87 ;
+	position: relative;
+	
+
+}
+#topo img{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#logo{
+	background: url(../imagens/topo-imagem-principal2.png) no-repeat ;
+
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.logo a{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 3;
+	background: url(../imagens/logo.png) no-repeat;
+	width: 151px;
+	height: 66px;
+	text-indent: -9000px;
+
+}
+
+#area-menu{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	background: url(../imagens/topo-imagem-lateral.png) no-repeat ;
+	background: ;
+	width: 450px;
+	height: 250px;
+
+}
+
+#conteudo-menu{
+	margin-left: 90px;
+	margin-right: 15px;
+	padding-top: 15px;
+
+}
+
+#menu-locais{
+	border-bottom: 1px solid #b5ab56;
+	border-top: 1px solid #b5ab56;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.7em;
+	color: #8b8448;
+
+}
+#menu-locais .locais{
+	float: left;
+	line-height: 2.1em;
+}
+a{
+	text-decoration: none;
+}
+
+a.reserva{
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0;
+	padding: 5px 10px;
+	border-radius: 10px;
+	box-shadow: 0 9px #999;
+	float: right;
+}
+
+.reserva:active{
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+/*Barra de navegação vertical topo{
+	*/
+
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#menu-vertical {
+	margin-top: 15px;
+
+
+}
+
+.depoimento{
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+
+ul#navegacao  {
+	float: left;
+}
+
+
+ul#navegacao a{
+	text-transform: uppercase;
+	color: #6e672c;
+	font-size: 0.8em;
+	padding: 5px;
+	line-height: 30px;
+	
+
+}
+
+
+ul#navegacao a:hover{
+	background: #fdf6be;
+}
+
+/*Area de conteudo*/
+
+#principal{
+	float: left;
+	width: 50%;
+	background: url(../imagens/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+
+}
+
+#lateral{
+	float: right;
+	width: 50%;
+	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+	padding: 20px 0px;
+
+}
+
+
+.conteudo{
+	margin: 0 auto;
+	width: 90%;
+
+}
+
+#rodape{
+	clear: both;
+	padding:16px;
+	background: #fff url(../imagens/bg-rodape.png) repeat-x top ;
+	color: #7d7640;
+	text-align: center;
+}
+
+/*Formatando conteudo lateral*/
+
+#conteudo-lateral li{
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+	
+}
+#conteudo-lateral li a img{
+	float: left;
+	margin-right: 8px;
+	
+}
+
+#conteudo-lateral li a h3{
+	background: url(../imagens/ornamento.png) no-repeat center right;
+	font-size: 1.1em;
+	padding:5px 0px;
+	text-transform: uppercase;
+	color: #7d7640;
+}
+#conteudo-lateral li a p{
+	color: #0A2A0A;
+	font-size: 0.8em;
+}
+
+#conteudo-lateral li:hover{
+	
+	background: #eee;
+	cursor: pointer;
+}
+
+
+}
+/*Formatações de textos*/
+
+h2 {
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+
+p{
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+/*fORMATANDO AREA DE HISTORIA*/
+
+#area-historia{
+	background: url(../imagens/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+
+}
+
+
+#area-historia img {
+	border: 4px groove #ECF6CE;
+	width: 70%;
+	height: 255px;
+text-align: center;
+
+}
+
+.imagem-rodape{
+	width: 30px;
+}
+h2 {
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+
+/*Formatando area de contato*/
+
+h1 {
+	color: #7d7640;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}
+
+legend{
+	font-weight: bold;
+}
+fieldset{
+	margin: 1.5em ;
+	padding: 1.2em;
+}
+input{
+	display: block;
+	padding: 5px;
+}
+
+.radio{
+	display: inline-block;
+
+	}
+
+input[type="checkbox"]{
+	display: inline;
+	padding: 5px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+	.enviar{
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0;
+	padding: 5px 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	box-shadow: 0 3px #999;
+	cursor: pointer;
+	display: inline;
+	}
+
+	.enviar:active{
+	box-shadow: 0 5px #666;
+	transform: translateY(3px);
